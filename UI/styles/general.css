@@ -24,3 +24,16 @@ ul
   margin-top: 0;
   margin-bottom: 0.5rem;
 }
+
+.container{
+	width:95%;
+	margin:auto;
+}
+
+.left-float{
+	float: left;
+}
+
+.right-float{
+	float: right;
+}
