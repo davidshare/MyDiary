@@ -1,0 +1,31 @@
+.menu-icon{
+	width:50px;
+	overflow: hidden;
+	border-radius: 5px;
+	border:1px solid #faed26;
+	margin: 20px;
+	cursor:pointer;
+}
+
+.menu-icon span{
+	display: block;
+	width:80%;
+	height: 5px;
+	margin: 6px auto;
+	background:#faed26;
+}
+
+.menu-icon:hover{
+	border: 1px solid #fff;
+}
+
+.menu-icon:hover span{
+	background:#fff;
+}
+
+@media only screen and (max-width: 600px) {
+	.menu-icon{
+		display: inline-block !important;
+		margin
+	}
+}
