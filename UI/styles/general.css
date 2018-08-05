@@ -66,3 +66,7 @@ ul
 .right-float{
 	float: right;
 }
+
+.display-hide{
+	display:none;
+}
