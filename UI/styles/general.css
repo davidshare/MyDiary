@@ -3,6 +3,28 @@
 		box-sizing: border-box;
 	}
 
+	/*colors or site*/
+
+	.bg-dark{
+		background: #222629;
+	}
+
+	.bg-warm{
+		background:#faed26;
+	}
+
+	.text-dark{
+		color: #222629;
+	}
+
+	.text-warm{
+		color: #faed26;
+	}
+
+	.text-white{
+		color: #fff;
+	}
+
 html{
 	font-family: Arial, Helvetica, sans-serif,
 	line-height:1.5;
@@ -12,6 +34,7 @@ body{
 	margin:0;
 	padding:0;
 	font-size: 16px;
+	width:100vw;
 }
 
 h1, 
