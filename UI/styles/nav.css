@@ -51,4 +51,28 @@
 }
 
 
+@media only screen and (max-width: 600px) {
+	nav >.container{
+		width:100%;
+	}
+
+   .brand{
+   		display: inline-block;
+	   	margin:15px;
+	   	float:none;
+   }
+
+   .main-nav{
+   		float: none;
+   		padding:0;
+   }
+
+   .nav-item{
+		display: block;
+		border-bottom: 1px solid #ddd;
+		padding:20px 15px;
+   }
+}
+
+
 
