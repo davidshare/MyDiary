@@ -70,3 +70,7 @@ ul
 .display-hide{
 	display:none;
 }
+
+.display-show{
+	display:block !important;
+}
