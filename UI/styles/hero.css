@@ -29,4 +29,19 @@
 	margin-top: 10px;
 }
 
+@media only screen and (max-width: 800px) {
+	.hero-content{
+		width:90%;
+		margin:0 auto;
+		text-align:center;
+		padding:70px 20px;
+	}
 
+	.hero-title{
+		font-size: 3em;
+	}
+
+	.hero-sub-title{
+		font-size: 1.2em;
+	}
+}
