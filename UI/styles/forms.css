@@ -18,3 +18,30 @@
 	color:#faed26;
 	border:1px solid #faed26;
 }
+
+.btn-dark{
+	background: #222629;
+	color: #faed26;
+}
+
+.btn-warm-outline, .btn-warm:hover{
+	background: #222629;
+	color:#faed26;
+	border:1px solid #faed26;
+}
+
+.btn-dark-outline, .btn-dark:hover{
+	background: #faed26;
+	color:#222629;
+	border:1px solid #222629;
+}
+
+.btn-light{
+	background: #fff;
+	border:1px solid #222629;
+}
+
+.btn-light:hover{
+	color:#fff;
+	background: #222629;
+}
