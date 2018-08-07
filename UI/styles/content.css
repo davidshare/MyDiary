@@ -2,7 +2,6 @@
    the app - cards, footer, etc*/
 
 .card{
-	width: 31.3%;
 	border-radius: 5px;
 	overflow:hidden;
 	display:inline;
@@ -48,6 +47,7 @@
 	width:40%;
 }
 
+
 @media only screen and (max-width: 650px){
 	.card{
 		margin: 10% 1%; 
@@ -55,3 +55,26 @@
 		width:100%;
 	}
 }
+
+
+
+@media only screen and (max-width: 1200px){
+	.col-1.card{
+		width: 31.3%;
+	}
+}
+
+@media only screen and (max-width: 700px){
+	.col-1.card{
+		width: 48%;
+	}
+}
+
+
+@media only screen and (max-width: 480px){
+	.col-1.card{
+		width: 100%;
+	}
+}
+
+
