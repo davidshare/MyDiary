@@ -117,3 +117,9 @@ p
 	width:31.3%;
 }
 
+/*Clear fix hack*/
+.clear-fix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
