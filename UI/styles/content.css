@@ -1,0 +1,49 @@
+/* content.css will host all styles for other smaller components of 
+   the app - cards, footer, etc*/
+
+.card{
+	width: 31.3%;
+	border-radius: 5px;
+	overflow:hidden;
+	display:inline;
+	float:left;
+	padding:10px;
+	margin:3% 1%;
+	box-shadow:0px 0px 10px 4px rgba(0,0,0,0.2);
+}
+
+.card:hover{
+	box-shadow:0px 0px 10px 5px rgba(0,0,0,0.4);
+}
+
+
+
+.card-title{
+	font-weight: bold;
+}
+
+.card-footer{
+	margin:25px auto;
+}
+
+.card-content{
+	padding:10px;
+	font-size: 0.9em;
+}
+
+.card img{
+
+}
+
+.card-icon{
+	width:40%;
+	margin:15px auto;
+	border-radius: 50%;
+	padding:10% 2.5%;
+	position: relative;
+
+}
+
+.card-icon img{
+	width:40%;
+}
