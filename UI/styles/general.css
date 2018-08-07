@@ -84,3 +84,14 @@ p
 	height:100%;
 }
 
+.w-sm{
+	max-width:25%;
+}
+
+.w-md{
+	max-width:50%;
+}
+
+.w-lg{
+	max-width:75%;
+}
