@@ -72,6 +72,10 @@ p
 		background:#faed26;
 	}
 
+	.bg-white{
+		background:#fff;
+	}
+
 	.text-dark{
 		color: #222629;
 	}
