@@ -19,6 +19,8 @@
 
 .card-title{
 	font-weight: bold;
+	font-size: 1.2em;
+	padding: 10px 0;
 }
 
 .card-footer{
@@ -46,6 +48,19 @@
 
 .card-icon img{
 	width:40%;
+}
+
+.card-footer .published{
+	margin-top: 20px;
+	font-size: 0.8em;
+}
+
+.views{
+	margin-left:20px;
+}
+.views img{
+	width:7%;
+	margin-top: 5px;
 }
 
 
