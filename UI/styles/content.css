@@ -63,6 +63,49 @@
 	margin-top: 5px;
 }
 
+footer{
+	margin:20px 0 0 0;
+	padding:50px;
+}
+
+.social-icons li{
+	display:inline-block;
+	background:#faed26;
+	border-radius: 50%;
+	padding-top: 20px;
+	text-align:center;
+	box-shadow:inset 0px 0px 10px 4px rgba(0,0,0,0.3);
+}
+
+.social-icons li img{
+	width:50%;
+}
+
+.footer-menu{
+	padding:20px;
+}
+
+.footer-menu li{
+	display:inline-block;
+	padding:0 10px;
+	border-right: 1px solid #fff;
+}
+
+.footer-menu li:last-child{
+	border:0;
+}
+
+.footer-menu li a{
+	text-decoration: none;
+	color:#fff;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.footer-menu li a:hover{
+	color:#faed26;
+}
+
 
 @media only screen and (max-width: 650px){
 	.card{
