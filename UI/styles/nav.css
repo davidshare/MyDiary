@@ -1,0 +1,79 @@
+/*styles for nav and nav elements*/
+
+.main-navbar{
+	overflow: hidden;
+}
+
+.main-nav{
+
+}
+
+.nav-item{
+	display: inline-block;
+	padding:20px 12px;
+}
+
+.nav-item a{
+	text-decoration: none;
+	height: 100%;
+	color:#fff;
+}
+
+.nav-item:hover{
+ 	color:#faed26;
+	border-bottom: 3px solid #faed26;
+}
+
+.nav-item:hover a{
+	color:#faed26;
+}
+
+.active{
+	background:#faed26;
+}
+
+.active:hover a, .active:hover{
+	color:#222629!important;
+	border:0;
+}
+
+.active a{
+	color:#222629;
+}
+
+.brand{
+	padding-top: 14px;
+}
+
+.brand-text{
+	font-weight: bold;
+	font-size: 1.8em;
+}
+
+
+@media only screen and (max-width: 600px) {
+	nav >.container{
+		width:100%;
+	}
+
+   .brand{
+   		display: inline-block;
+	   	margin:15px;
+	   	float:none;
+   }
+
+   .main-nav{
+   		float: none;
+   		padding:0;
+   		display: none;
+   }
+
+   .nav-item{
+		display: block;
+		border-bottom: 1px solid #ddd;
+		padding:20px 15px;
+   }
+}
+
+
+

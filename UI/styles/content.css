@@ -1,0 +1,139 @@
+/* content.css will host all styles for other smaller components of 
+   the app - cards, footer, etc*/
+
+.card{
+	border-radius: 5px;
+	overflow:hidden;
+	display:inline;
+	float:left;
+	padding:0px;
+	margin:3% 1%;
+	box-shadow:0px 0px 10px 4px rgba(0,0,0,0.2);
+}
+
+.card:hover{
+	box-shadow:0px 0px 10px 5px rgba(0,0,0,0.4);
+}
+
+
+
+.card-title{
+	font-weight: bold;
+	font-size: 1.2em;
+	padding: 10px 20px;
+}
+
+.card-footer{
+	margin:25px auto;
+}
+
+.card-content{
+	padding:10px 20px;
+	font-size: 0.9em;
+}
+
+.card-img{
+	width:100%;
+	height: 200px;
+}
+
+.card-icon{
+	width:40%;
+	margin:15px auto;
+	border-radius: 50%;
+	padding:10% 2.5%;
+	position: relative;
+
+}
+
+.card-icon img{
+	width:40%;
+}
+
+.card-footer .published{
+	margin-top: 20px;
+	font-size: 0.8em;
+}
+
+.views{
+	margin-left:20px;
+}
+.views img{
+	width:7%;
+	margin-top: 5px;
+}
+
+footer{
+	margin:20px 0 0 0;
+	padding:50px;
+}
+
+.social-icons li{
+	display:inline-block;
+	background:#faed26;
+	border-radius: 50%;
+	padding-top: 20px;
+	text-align:center;
+	box-shadow:inset 0px 0px 10px 4px rgba(0,0,0,0.3);
+}
+
+.social-icons li img{
+	width:50%;
+}
+
+.footer-menu{
+	padding:20px;
+}
+
+.footer-menu li{
+	display:inline-block;
+	padding:0 10px;
+	border-right: 1px solid #fff;
+}
+
+.footer-menu li:last-child{
+	border:0;
+}
+
+.footer-menu li a{
+	text-decoration: none;
+	color:#fff;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.footer-menu li a:hover{
+	color:#faed26;
+}
+
+
+@media only screen and (max-width: 650px){
+	.card{
+		margin: 10% 1%; 
+		display:block;
+		width:100%;
+	}
+}
+
+
+
+@media only screen and (max-width: 1200px){
+	.col-1.card{
+		width: 31.3%;
+	}
+}
+
+@media only screen and (max-width: 700px){
+	.col-1.card{
+		width: 48%;
+	}
+}
+
+
+@media only screen and (max-width: 480px){
+	.col-1.card{
+		width: 100%;
+	}
+}
+
+

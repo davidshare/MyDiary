@@ -1,0 +1,70 @@
+/*Buttons*/
+
+.btn{
+	padding:10px 20px;
+	border-radius: 5px;
+	text-decoration: none;
+	margin:5px;
+	text-align: center;
+}
+
+.btn-warm{
+	background: #faed26;
+	color: #222629;
+}
+
+.btn-warm-outline, .btn-warm:hover{
+	background: #222629;
+	color:#faed26;
+	border:1px solid #faed26;
+}
+
+.btn-dark{
+	background: #222629;
+	color: #faed26;
+}
+
+.btn-warm-outline, .btn-warm:hover{
+	background: #222629;
+	color:#faed26;
+	border:1px solid #faed26;
+}
+
+.btn-dark-outline, .btn-dark:hover{
+	background: #faed26;
+	color:#222629;
+	border:1px solid #222629;
+}
+
+.btn-light{
+	background: #fff;
+	border:1px solid #222629;
+}
+
+.btn-light:hover{
+	color:#fff;
+	background: #222629;
+}
+
+.subscribe{
+	overflow: hidden;
+}
+
+.subscribe form{
+	margin:30px 0;
+}
+
+input.email, .btn-subscribe{
+	padding:10px 30px;
+	font-size: 1.5em;
+	border:0;
+}
+
+input.email{
+	border-radius: 5px 0 0 5px;
+}
+
+.btn-subscribe{
+	border-radius: 0 5px 5px 0px !important;
+	margin:0;
+}

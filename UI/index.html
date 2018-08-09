@@ -7,6 +7,189 @@
 	<link rel="stylesheet" href="styles/host.css">
 </head>
 <body>
+	<nav class="main-navbar bg-dark text-white clear-fix">
+		<div class="container">
+			<div class="brand text-warm left-float">
+				<h1 class="brand-text">MyDiary</h1>
+			</div>
+			<div class="menu-icon right-float display-hide" onclick="toggleNavDisplay(this)">
+				<span class="bar1"></span>
+				<span class="bar2"></span>
+				<span class="bar3"></span>
+			</div>
+			<ul class="main-nav right-float" id="main-nav">
+				<li class="nav-item active"><a href="index.html">Home</a></li>
+				<li class="nav-item"><a href="about.html">About us</a></li>
+				<li class="nav-item"><a href="my_entries.html">My entries</a></li>
+				<li class="nav-item"><a href="public_entries.html">Public entries</a></li>
+				<li class="nav-item"><a href="profile.html">Profile</a></li>
+				<li class="nav-item"><a href="contact.html">Contact</a></li>
+				<li class="nav-item"><a href="login.html">Login</a></li>
+				<li class="nav-item"><a href="register.html">Register</a></li>
+				<li class="nav-item"><a href="logout.html">Logout</a></li>
+			</ul>
+		</div>
+	</nav>
+	<header id="header" class="hero container-max clear-fix">
+		<div class="transparent-cover-dark">
+			<div class="hero-content">
+				<h1 class="hero-title text-white">You can trust us</h1>
+				<p class="hero-sub-title text-white">Pour out your heart and mind. Set yourself free</p>
+				<p class="hero-text text-white">
+					Looking for a place to put down your thoughts? Whether you just want to journal your experiences or pour out your heart or maybe get people to hear your voice, we will make that happen for you.
+				</p>
+				<a href="register.html" type="button" class="btn btn-warm">Get Started!</a>
+			</div>
+		</div>
+	</header>
+	<section class="offer container text-center clear-fix">
+		<article>
+			<h1 class="header-text">What we offer</h1>
+			<p>
+				We have got you covered: whether you're in need of a tool to express your ideas, document your experiences, keep track of important information or events or share your opinions with others.
 
+				We've made sure to put together the best tools that will serve you in the best way possible. Don't forget the sweetest part of this: We are doing this for free. We know you'll love it.
+			</p>
+		</article>
+		<article class="card col-2">
+			<p class="card-icon">
+				<img src="assets/images/security.png" alt="security icon">
+			</p>
+			<h4 class="card-title">100% Secure and private</h4>
+			<p class="card-content">We take your security and privacy very seriously. Our your content is 100% secure and private.</p>
+			<p class="card-footer">
+				<a href="#" class="btn btn-warm">Read more...</a>
+			</p>
+		</article>		
+		<article class="card col-2">
+			<p class="card-icon">
+				<img src="assets/images/search.png" alt="search icon">
+			</p>
+			<h4 class="card-title">Easy and efficient search</h4>
+			<p class="card-content">We make sure you can find your entries with ease. You can also search for public journals from other people.</p>
+			<p class="card-footer">
+				<a href="#" class="btn btn-warm">Read more...</a>
+			</p>
+		</article>
+		<article class="card col-2">
+			<p class="card-icon">
+				<img src="assets/images/alarm.png" alt="alarm icon">
+			</p>
+			<h4 class="card-title">We will remind you to write</h4>
+			<p class="card-content">We know sometimes, you might have a lot of great things on your mind that you forget to write. Don't worry, we will remind you.</p>
+			<p class="card-footer">
+				<a href="#" class="btn btn-warm">Read more...</a>
+			</p>
+		</article>
+
+	</section>
+	<section class="container-max bg-warm text-center subscribe">
+			<article class="container">
+			<h1 class="header-text">Subscribe to our newsletter</h1>
+			<p>
+				We have got you covered: whether you're in need of a tool to express your ideas, document your experiences, keep track of important information or events or share your opinions with others.
+
+				We've made sure to put together the best tools that will serve you in the best way possible. Don't forget the sweetest part of this: We are doing this for free. We know you'll love it.
+			</p>
+		</article>
+		<form action="#" method="post">
+			<input type="email" name="email" class="email" placeholder="example@mydiary.com"><button type="submit" class="btn btn-dark btn-subscribe">Subscribe</button>
+		</form>
+	</section>
+		
+	</section>
+	<section class="public-entries container-max bg-white clear-fix">
+		<div class="container text-center">
+			<article>
+			<h1 class="header-text">Public entries</h1>
+			<p>
+				We have got you covered: whether you're in need of a tool to express your ideas, document your experiences, keep track of important information or events or share your opinions with others.
+
+				We've made sure to put together the best tools that will serve you in the best way possible. Don't forget the sweetest part of this: We are doing this for free. We know you'll love it.
+			</p>
+		</article>
+			<article class="col-1 card bg-white">
+				<img src="assets/images/avatar.jpg" alt="" class="card-img">
+				<div class="card-title">
+					The day I met my wife.
+				</div>
+				<div class="card-content">
+					It was a cool evening, when I was sitting under the shade and it felt like the moon had turned to the sun.
+				</div>
+				<div class="card-footer">
+					<a href="" class="btn btn-warm">Read more...</a>
+					<p class="published">
+						28th December, 2018<span class="views"><img src="assets/images/views.png">203</span>
+					</p>
+				</div>
+			</article>
+
+			<article class="col-1 card bg-white">
+				<img src="assets/images/avatar.jpg" alt="" class="card-img">
+				<div class="card-title">
+					The day I met my wife.
+				</div>
+				<div class="card-content">
+					It was a cool evening, when I was sitting under the shade and it felt like the moon had turned to the sun.
+				</div>
+				<div class="card-footer">
+					<a href="" class="btn btn-warm">Read more...</a>
+					<p class="published">
+						28th December, 2018<span class="views"><img src="assets/images/views.png">203</span>
+					</p>
+				</div>
+			</article>
+
+			<article class="col-1 card bg-white">
+				<img src="assets/images/avatar.jpg" alt="" class="card-img">
+				<div class="card-title">
+					The day I met my wife.
+				</div>
+				<div class="card-content">
+					It was a cool evening, when I was sitting under the shade and it felt like the moon had turned to the sun.
+				</div>
+				<div class="card-footer">
+					<a href="" class="btn btn-warm">Read more...</a>
+					<p class="published">
+						28th December, 2018<span class="views"><img src="assets/images/views.png">203</span>
+					</p>
+				</div>
+			</article>
+
+			<article class="col-1 card bg-white">
+				<img src="assets/images/avatar.jpg" alt="" class="card-img">
+				<div class="card-title">
+					The day I met my wife.
+				</div>
+				<div class="card-content">
+					It was a cool evening, when I was sitting under the shade and it felt like the moon had turned to the sun.
+				</div>
+				<div class="card-footer">
+					<a href="" class="btn btn-warm">Read more...</a>
+					<p class="published">
+						28th December, 2018<span class="views"><img src="assets/images/views.png">203</span>
+					</p>
+				</div>
+			</article>
+			
+		</div>
+	</section>
+	<footer class="bg-dark text-center">
+		<ul class="social-icons">
+			<li><img src="assets/images/facebook.png"></li>
+			<li><img src="assets/images/twitter.png"></li>
+			<li><img src="assets/images/googleplus.png"></li>
+			<li><img src="assets/images/pinterest.png"></li>
+		</ul>
+		<ul class="footer-menu">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About us</a></li>
+			<li><a href="my_entries.html">My entries</a></li>
+			<li><a href="public_entries.html">Public entries</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+		<p class="text-warm">Developer: Essien, David Itam - 2018</p>
+	</footer>
+	<script src="js/main.js"></script>
 </body>
 </html>
